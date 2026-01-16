@@ -28,7 +28,7 @@ sudo pacman -Syu
 ### Ajouter une clé avec `apt-key` (déconseillé sur les nouvelles versions d’Ubuntu) si vous avez un linux un peut vieux
 ```bash
 # Télécharger et ajouter la clé GPG depuis keyserver.ubuntu.com (exemple avec la clé de Docker)
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9DC858229FC7DD38854AE2D88D81803C0EBFCD88
+sudo apt-key adv --keyserver keyserver.ubuntu.com:80 --recv-keys ED65462EC8D5E4C5
 
 # Ajouter le dépôt APT correspondant
 echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu \$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
