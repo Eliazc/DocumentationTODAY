@@ -15,13 +15,16 @@ sudo apt full-upgrade
 
 # Nettoyer les paquets inutiles
 sudo apt autoremove
+```
 
 # Mettre à jour tous les paquets pour fedora, centOS et RHEL 
+```bash
 sudo dnf upgrade
-
+```
 # Mettre à jour tous les paquets arch(btw)
+```bash
 sudo pacman -Syu
-
+```
 ### Ajouter une clé avec `apt-key` (déconseillé sur les nouvelles versions d’Ubuntu) si vous avez un linux un peut vieux
 ```bash
 # Télécharger et ajouter la clé GPG depuis keyserver.ubuntu.com (exemple avec la clé de Docker)
