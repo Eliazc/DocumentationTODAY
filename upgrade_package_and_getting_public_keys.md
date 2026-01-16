@@ -15,6 +15,7 @@ sudo apt full-upgrade
 
 # Nettoyer les paquets inutiles
 sudo apt autoremove
+
 # Mettre à jour tous les paquets pour fedora, centOS et RHEL 
 sudo dnf upgrade
 
