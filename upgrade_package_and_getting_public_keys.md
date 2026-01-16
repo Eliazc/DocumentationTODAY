@@ -1,4 +1,4 @@
-# Mise à jour et gestion des paquets avec APT
+# Mise à jour et gestion des paquets avec APT ou autre
 
 ## 1. Mise à jour des paquets sur différentes distributions
 
