@@ -81,7 +81,8 @@ WHERE id = 1;
 -- Supprimer un enregistrement
 DELETE FROM clients WHERE id = 1;
 ```
-
+## 6. Gestion des tables
+```sql
 -- Créer une table
 CREATE TABLE clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -96,7 +97,9 @@ ALTER TABLE clients ADD COLUMN ville VARCHAR(50);
 
 -- Supprimer une table
 DROP TABLE clients;
-
+```
+## 7. Fonctions utiles
+```sql
 -- Fonctions de date
 SELECT CURRENT_DATE; -- Date du jour
 SELECT DATE_ADD(CURRENT_DATE, INTERVAL 7 DAY); -- Ajouter 7 jours
@@ -113,3 +116,4 @@ SELECT nom,
            ELSE 'Sénior'
        END AS categorie_age
 FROM clients;
+```
